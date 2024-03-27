@@ -15,10 +15,8 @@ class TournamentRegisterController extends Controller
             'tournament_id' => 'required|exists:tournaments,id',
             'payments_method' => 'required|string',
             'transaction_id' => 'required|string',
-            'user_image' => 'required|string',
-            'user_phone' => 'required|string',
-            'user_name' => 'required|string',
-            'user_address' => 'required|string',
+            'amount' => 'required|string',
+            'account_no' => 'required|string',
             'status' => 'required|string',
         ]);
 

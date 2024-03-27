@@ -13,10 +13,8 @@ class TournamentRegister extends Model
         'tournament_id',
         'payments_method',
         'transaction_id',
-        'user_image',
-        'user_phone',
-        'user_name',
-        'user_address',
+        'account_no',
+        'amount',
         'status',
     ];
     public function user()
